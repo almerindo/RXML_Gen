@@ -18,6 +18,13 @@ class UserController {
       ),
     });
 
+    const userlogged = await User.findByPk(req.userID);
+    if (userlogged.email !== 'admin@ttair.org') {
+      return res.status(400).json({
+        error: `Only Administrator can create users ${userlogged.email}`,
+      });
+    }
+
     if (!(await schema.isValid(req.body))) {
       return res.status(400).json({ error: 'Validation fails' });
     }
@@ -69,7 +76,7 @@ class UserController {
 
     const { email, oldPassword, certID } = req.body;
 
-    const user = await User.findByPk(req.userId);
+    const user = await User.findByPk(req.userID);
 
     if (email !== user.email) {
       const userExists = await User.findOne({ where: { email } });
@@ -93,9 +100,9 @@ class UserController {
     }
 
     try {
-      await user.update(req.body);
-      const { id, name, cert } = await User.getByID(req.userId);
-      return res.json({ id, name, email, cert });
+      const { id, name, cnpj, cert_id } = await user.update(req.body);
+      //= await User.getByID(req.userID);
+      return res.json({ id, name, cnpj, email, cert_id });
     } catch (err) {
       // return res.json(err);
       return res.status(401).json({ error: 'User was not updated' });
