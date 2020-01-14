@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompNfse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http:/www.abrasf.org.br/nfse.xsd">
+  <Nfse versao="1.00">
+    <InfNfse Id="NFSe201500000000003">
+      <Numero>201500000000003</Numero>
+      <CodigoVerificacao>EC5Y-QRX8</CodigoVerificacao>
+      <DataEmissao>2015-04-24T16:11:42</DataEmissao>
+      <NaturezaOperacao>1</NaturezaOperacao>
+      <OptanteSimplesNacional>2</OptanteSimplesNacional>
+      <IncentivadorCultural>2</IncentivadorCultural>
+      <Competencia>2015-04-01T00:00:00</Competencia>
+      <Servico>
+        <Valores>
+          <ValorServicos>2500</ValorServicos>
+          <IssRetido>2</IssRetido>
+          <ValorIss>125</ValorIss>
+          <BaseCalculo>2500</BaseCalculo>
+          <Aliquota>5</Aliquota>
+        </Valores>
+        <ItemListaServico>0106</ItemListaServico>
+        <CodigoTributacaoMunicipio>0106</CodigoTributacaoMunicipio>
+        <Discriminacao>10h referente a consultoria em regra de negócio da nota fiscal de consumidor eletrônica NFC-e.</Discriminacao>
+        <CodigoMunicipio>2800308</CodigoMunicipio>
+      </Servico>
+      <PrestadorServico>
+        <IdentificacaoPrestador>
+          <Cnpj>93124015568</Cnpj>
+          <InscricaoMunicipal>3007284</InscricaoMunicipal>
+        </IdentificacaoPrestador>
+        <RazaoSocial>ALMERINDO NASCIMENTO REHEM NETO</RazaoSocial>
+        <NomeFantasia>ALMERINDO NASCIMENTO REHEM NETO</NomeFantasia>
+        <Endereco>
+          <Endereco>Avenida Augusto Franco</Endereco>
+          <Numero>3500</Numero>
+          <Complemento>Cond. Morada das Mangueiras, Rua H, Casa 123</Complemento>
+          <Bairro>Ponto Novo</Bairro>
+          <CodigoMunicipio>2800308</CodigoMunicipio>
+          <Uf>SE</Uf>
+          <Cep>49097670</Cep>
+        </Endereco>
+        <Contato>
+          <Telefone>7932179769</Telefone>
+          <Email>almerindo.rehem@gmail.com</Email>
+        </Contato>
+      </PrestadorServico>
+      <TomadorServico>
+        <IdentificacaoTomador>
+          <CpfCnpj>
+            <Cnpj>05951647000112</Cnpj>
+          </CpfCnpj>
+        </IdentificacaoTomador>
+        <RazaoSocial>NETSERVICES SERVICOS DE INTERNET LTDA</RazaoSocial>
+        <Endereco>
+          <Endereco>Rua Monsenhor Silveira</Endereco>
+          <Numero>276</Numero>
+          <Complemento>SALA 10</Complemento>
+          <Bairro>São José</Bairro>
+          <CodigoMunicipio>2800308</CodigoMunicipio>
+          <Uf>SE</Uf>
+          <Cep>49015030</Cep>
+        </Endereco>
+        <Contato>
+          <Telefone>7921068000</Telefone>
+          <Email>Administracao@infonet.com.br</Email>
+        </Contato>
+      </TomadorServico>
+      <OrgaoGerador>
+        <CodigoMunicipio>2800308</CodigoMunicipio>
+        <Uf>SE</Uf>
+      </OrgaoGerador>
+    </InfNfse>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#NFSe201500000000003">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+            <DigestValue>DwR4HPgWVP5pw63zJtrd09JLK0o=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>AD7ewNKfCZucIS06NdfCn4tdgD82OnZl4q2tRQk9FVLKMfPTpzelRoMH4LF6rSGRm9jWWjlHWQWcDZuMkqXktnNPVbBk/mqTwMmgNralzG1pktuRq1rH7dIRheiurwbpTNxIAoFEzE3n+jFppqJytmvddfK3JwXHufKtMziQGN/cg95E/cUH4hP8DMyerrAGJiTuJY2m3KMaU/U7YBvg6AYtyL5Xr3DtGfMQ0AwuxNasXDgHmPL6LdbbJ6nr7rMuiOUO8Zk94cZvNds+oYfRqhqSilKex+UnbtGCHGv8p/IQJTbcNuogZEhY6cBuBTml9zJzdKcD/Q77u7qIYXdXkA==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </Nfse>
+</CompNfse>

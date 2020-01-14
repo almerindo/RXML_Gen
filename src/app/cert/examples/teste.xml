@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompNfse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http:/www.abrasf.org.br/nfse.xsd">
+  <Nfse versao="1.00">
+    <InfNfse Id="NFSe201500000000003">
+      <Numero>NFSe201500000000003</Numero>
+      <CodigoVerificacao>EC5Y-QRX8</CodigoVerificacao>
+      <DataEmissao>2015-04-24T16:11:42</DataEmissao>
+      <NaturezaOperacao>1</NaturezaOperacao>
+      <OptanteSimplesNacional>2</OptanteSimplesNacional>
+      <IncentivadorCultural>2</IncentivadorCultural>
+      <Competencia>2015-04-01T00:00:00</Competencia>
+      <Servico>
+        <Valores>
+          <ValorServicos>2500</ValorServicos>
+          <IssRetido>2</IssRetido>
+          <ValorIss>125</ValorIss>
+          <BaseCalculo>2500</BaseCalculo>
+          <Aliquota>5</Aliquota>
+        </Valores>
+        <ItemListaServico>0106</ItemListaServico>
+        <CodigoTributacaoMunicipio>0106</CodigoTributacaoMunicipio>
+        <Discriminacao>10h referente a consultoria em regra de negócio da nota fiscal de consumidor eletrônica NFC-e.</Discriminacao>
+        <CodigoMunicipio>2800308</CodigoMunicipio>
+      </Servico>
+      <PrestadorServico>
+        <IdentificacaoPrestador>
+          <Cnpj>93124025561</Cnpj>
+          <InscricaoMunicipal>3007282</InscricaoMunicipal>
+        </IdentificacaoPrestador>
+        <RazaoSocial>TTAIR &amp; CIA</RazaoSocial>
+        <NomeFantasia>ROCKET SOLUTIONS</NomeFantasia>
+        <Endereco>
+          <Endereco>Avenida Augusto Franco</Endereco>
+          <Numero>3500</Numero>
+          <Complemento>Galeria Ponto Novo</Complemento>
+          <Bairro>Ponto Novo</Bairro>
+          <CodigoMunicipio>2800308</CodigoMunicipio>
+          <Uf>SE</Uf>
+          <Cep>49097670</Cep>
+        </Endereco>
+        <Contato>
+          <Telefone>7922179769</Telefone>
+          <Email>contato@ttair.org</Email>
+        </Contato>
+      </PrestadorServico>
+      <TomadorServico>
+        <IdentificacaoTomador>
+          <CpfCnpj>
+            <Cnpj>05951647000112</Cnpj>
+          </CpfCnpj>
+        </IdentificacaoTomador>
+        <RazaoSocial>NETSERVICES SERVICOS DE INTERNET LTDA</RazaoSocial>
+        <Endereco>
+          <Endereco>Rua Monsenhor Silveira</Endereco>
+          <Numero>276</Numero>
+          <Complemento>SALA 10</Complemento>
+          <Bairro>São José</Bairro>
+          <CodigoMunicipio>2800301</CodigoMunicipio>
+          <Uf>SE</Uf>
+          <Cep>49015030</Cep>
+        </Endereco>
+        <Contato>
+          <Telefone>7921068000</Telefone>
+          <Email>administracao@infonet.com.br</Email>
+        </Contato>
+      </TomadorServico>
+      <OrgaoGerador>
+        <CodigoMunicipio>2800308</CodigoMunicipio>
+        <Uf>SE</Uf>
+      </OrgaoGerador>
+    </InfNfse>
+  </Nfse>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFSe201500000000003"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>ZHDXIQVLDd4UFOk8neqPV6XqruI=</DigestValue></Reference></SignedInfo><SignatureValue>MTQrL0I0X1/f+7tM4WnPUTxMgyW7TXO9p2Fc9qSquGzbmU/Ci4edHPmQb3FTIHvgQxCveeZ/85hoAeOnaOi/SQR7V3nBfn6xgOtC3HXfVv3QLKqch/6a/UptbZ1w4zIg5tmvM3kF/x8lLw62GlPgfhcDO8ZKWvqdPghMAG9iXiQQXkflOPFlFC/Pi3qdR0xzYpeWX4MniDjHcZkbHUfTjZf3NUG33qrHzBfJ6FA2iSeeQhGubB/JFPb0afGuf30s1afsAnkf/VcpiRsEXFU/0uHEJF05ms6bdCYlcX9fCsR15360U4I3spe7XyI9b6JS9W9LHqVc0MwYu8Wbfqsvvg==</SignatureValue></Signature></CompNfse>

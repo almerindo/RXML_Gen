@@ -15,7 +15,7 @@ routes.use(authMiddleware);
 routes.post('/users', UserController.store);
 routes.put('/users', UserController.update);
 
-routes.post('/notas', InvoiceController.index);
+routes.post('/notas', InvoiceController.post);
 
 // routes.get('/', async (req, res) => {
 //   const cert = await Cert.create({
