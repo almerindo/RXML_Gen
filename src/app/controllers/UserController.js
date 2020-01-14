@@ -19,7 +19,7 @@ class UserController {
     });
 
     const userlogged = await User.findByPk(req.userID);
-    if (userlogged.email !== 'admin@ttair.org') {
+    if (userlogged.email !== process.env.MAIL_ADMIN) {
       return res.status(400).json({
         error: `Only Administrator can create users ${userlogged.email}`,
       });

@@ -3,10 +3,11 @@ import Sequelize from 'sequelize';
 
 import User from '../app/models/User';
 import Cert from '../app/models/Cert';
+import Invoice from '../app/models/Invoice';
 
 import databaseConfig from '../config/database';
 
-const models = [User, Cert];
+const models = [User, Cert, Invoice];
 
 class Datababase {
   constructor() {
